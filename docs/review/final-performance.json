@@ -1,0 +1,82 @@
+[
+  {
+    "page": "inicio",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "display": "1.2 s",
+        "value": 1201.3765
+      },
+      "largest-contentful-paint": {
+        "display": "5.6 s",
+        "value": 5619.753
+      },
+      "total-blocking-time": {
+        "display": "10 ms",
+        "value": 7
+      },
+      "cumulative-layout-shift": {
+        "display": "0",
+        "value": 0
+      },
+      "speed-index": {
+        "display": "1.2 s",
+        "value": 1201.3765
+      },
+      "total-byte-weight": {
+        "display": "Total size was 818 KiB",
+        "value": 837691
+      },
+      "unsized-images": {
+        "display": null,
+        "value": null
+      }
+    }
+  },
+  {
+    "page": "contato",
+    "lighthouse": "13.5.0",
+    "scores": {
+      "performance": 84,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 60
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "display": "1.2 s",
+        "value": 1202.6065
+      },
+      "largest-contentful-paint": {
+        "display": "4.5 s",
+        "value": 4505.213
+      },
+      "total-blocking-time": {
+        "display": "0 ms",
+        "value": 0
+      },
+      "cumulative-layout-shift": {
+        "display": "0",
+        "value": 0
+      },
+      "speed-index": {
+        "display": "1.2 s",
+        "value": 1202.6065
+      },
+      "total-byte-weight": {
+        "display": "Total size was 611 KiB",
+        "value": 625506
+      },
+      "unsized-images": {
+        "display": null,
+        "value": null
+      }
+    }
+  }
+]

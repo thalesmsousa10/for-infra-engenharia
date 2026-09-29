@@ -1,0 +1,25 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.sites-runtime/
+*.tsbuildinfo
+
+# Arquivos locais e histórico interno de preparação
+.DS_Store
+.openai/
+.agents/
+.codex/
+research/
+previews/
+ANALISE-DO-DOCUMENTO.md
+AUDITORIA-DO-SITE.md
+DESIGN-V2.md
+PLANO-DE-IMPLEMENTACAO.md
+REFINAMENTO-EDITORIAL.md
+VERIFICACAO.md
+*.tgz
+*.log
+*.pem
+*.key

@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import {InstitutionalHero} from '@/components/Institutional';
+import {ActionMark} from '@/components/Shell';
+export default function NotFound(){return <main tabIndex={-1} id="conteudo" className="institutional-page"><InstitutionalHero title="Página não encontrada." text="O endereço pode ter mudado ou estar incompleto. Volte ao início para conhecer a For Infra e encontrar o serviço que sua obra precisa." href="/" label="Voltar ao início"/><section className="institutional-split"><h2>Encontre seu<br/>próximo passo.</h2><div><p>Conheça nossas soluções ou converse com a equipe sobre sua obra.</p><div className="inline-actions"><Link href="/solucoes/" className="button">Nossas soluções <ActionMark/></Link><Link href="/contato/" className="button">Fale com a equipe <ActionMark/></Link></div></div></section></main>}
