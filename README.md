@@ -2,6 +2,8 @@
 
 Site institucional da For Infra Engenharia, preparado para revisão de desenvolvimento e design. Desenvolvido com Next.js 15, React 19 e TypeScript, com exportação estática.
 
+**Ver o site:** [For Infra Engenharia — prévia pública](https://thalesmsousa10.github.io/for-infra-engenharia/).
+
 ## Rodar o projeto
 
 Requisitos: Node.js 22 e npm.
@@ -76,6 +78,12 @@ As imagens da home foram preservadas. As páginas internas usam 19 imagens disti
 
 O formulário valida os dados, apresenta uma revisão e prepara uma mensagem para o WhatsApp comercial. O visitante conclui o envio no WhatsApp. Não há backend de contatos, envio automático, armazenamento de leads nem geração automática de orçamento.
 
-A versão está em revisão: `noindex` permanece ativo e `metadataBase` usa endereço provisório. Domínio, indexação, metadados de compartilhamento, compressão e cache devem ser configurados antes do lançamento. O repositório não publica automaticamente um site.
+A versão está em revisão: `noindex` permanece ativo. Domínio definitivo, indexação, metadados de compartilhamento, compressão e cache devem ser configurados antes do lançamento.
+
+## Publicação no GitHub Pages
+
+O workflow `.github/workflows/pages.yml` gera o site com `npm ci` e `npm run build`, publica somente a pasta `out/` e atualiza a prévia a cada push na `main`. Em Settings → Pages, a origem deve ser **GitHub Actions**. Publicar a raiz da branch transforma o README em uma página de documentação, em vez de publicar o site.
+
+O workflow define `NEXT_PUBLIC_BASE_PATH` e `NEXT_PUBLIC_SITE_URL` a partir dos dados do Pages. Links do Next.js e arquivos públicos recebem o prefixo do repositório; fontes são incluídas pelo build. Sem essas variáveis, o desenvolvimento local continua na raiz `/`.
 
 Este repositório está preparado para avaliação e não inclui uma licença de código aberto. Dependências e fontes mantêm suas próprias licenças.
