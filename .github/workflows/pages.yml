@@ -3,6 +3,10 @@ name: Publicar site no GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - 'modelos/**'
+      - 'README.md'
   workflow_dispatch:
 
 permissions:

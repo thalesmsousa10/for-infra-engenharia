@@ -48,7 +48,7 @@ Abra http://127.0.0.1:3001/. O projeto exportado não usa `next start`. A hosped
 | Estacas escavadas | `/solucoes/estacas-escavadas/` |
 | Estacas Strauss | `/solucoes/estacas-strauss/` |
 
-`/obras/modelo/` é uma demonstração de estrutura de caso, sem obra real cadastrada. Deve ser removida ou substituída antes do lançamento.
+O modelo de caso está salvo em `modelos/obra/ModeloDeCaso.tsx`, fora das rotas públicas. `/obras/modelo/` foi retirada da exportação. O componente `CaseStudy` permanece disponível para cadastrar um caso real documentado e autorizado.
 
 ## Para quem vai revisar
 
@@ -68,11 +68,16 @@ Confira o [guia de revisão](docs/REVISAO.md) e a [auditoria técnica](docs/AUDI
 - `lib/service-pages.ts`: conteúdo das cinco páginas de serviços.
 - `lib/editorial-images.ts`: imagens exclusivas das páginas internas e textos alternativos.
 - `lib/images.ts`: variantes responsivas do acervo.
+- `lib/metadata.ts`: títulos, descrições, canonical e cartões de compartilhamento.
+- `lib/fonts.ts`: fontes locais descobertas no HTML, com preload dos subconjuntos principais no layout.
+- `modelos/`: modelos de trabalho fora da navegação e da exportação pública.
 - `public/`: imagens, fontes locais e bibliotecas de animação.
 
 O estilo aprovado combina petróleo e laranja com Cormorant Garamond e Instrument Sans. GSAP/ScrollTrigger são locais e o movimento respeita `prefers-reduced-motion`. As fotografias são conceituais, geradas por IA, e não representam obras ou integrantes reais da empresa. As fontes incluem suas licenças em `public/fonts/`.
 
-As imagens da home foram preservadas. As páginas internas usam 19 imagens distintas, com versões responsivas em WebP. Confira o [mapeamento do acervo](docs/assets/PLANO-DE-IMAGENS.md).
+As imagens da home foram preservadas. O acervo interno inclui 19 imagens distintas em WebP: 17 nas páginas comerciais e duas reservadas ao modelo de caso arquivado. Confira o [mapeamento do acervo](docs/assets/PLANO-DE-IMAGENS.md).
+
+O cartão de compartilhamento usa a arte `public/assets/for-infra-compartilhamento-v1.png` (1200 × 630), com fonte editável em `docs/assets/compartilhamento.html`. As páginas comerciais têm Open Graph e Twitter Cards com título, descrição e URL próprios. A exibição de prévias depende do serviço que recebe o link e do cache dele.
 
 ## Formulário e lançamento
 

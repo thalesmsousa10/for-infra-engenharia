@@ -1,9 +1,10 @@
+import {pageMetadata} from '@/lib/metadata';
 import {institutionalImages} from '@/lib/editorial-images';
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import {CTA,ActionMark} from '@/components/Shell';
 import {EditorialPhoto} from '@/components/Institutional';
-export const metadata:Metadata={title:'Nossa história e a For Infra',description:'Conheça a For Infra Engenharia: experiência de campo, atuação familiar e uma visão integrada da investigação do solo ao projeto e à execução de fundações.'};
+export const metadata:Metadata=pageMetadata("Nossa história e a For Infra","Conheça a For Infra Engenharia: experiência de campo, atuação familiar e uma visão integrada da investigação do solo ao projeto e à execução de fundações.","/sobre/");
 const chapters=[
  {title:'Experiência que orienta decisões.',label:'Conhecimento de campo',text:'A experiência da nossa equipe em geotecnia e fundações está na base da For Infra. Conhecer o terreno, compreender as exigências da estrutura e considerar as condições de execução fazem parte do nosso trabalho.'},
  {title:'Uma visão completa da fundação.',label:'Engenharia integrada',text:'Da investigação do solo ao projeto e à execução, conectamos informações para orientar cada etapa. As decisões consideram o empreendimento como um todo e as particularidades de cada canteiro.'},
