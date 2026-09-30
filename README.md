@@ -79,7 +79,7 @@ O estilo aprovado combina petróleo e laranja com Cormorant Garamond e Instrumen
 
 As imagens da home foram preservadas. O acervo interno inclui 19 imagens distintas em WebP: 17 nas páginas comerciais e duas reservadas ao modelo de caso arquivado. Confira o [mapeamento do acervo](docs/assets/PLANO-DE-IMAGENS.md).
 
-O cartão de compartilhamento usa a arte `public/assets/for-infra-compartilhamento-v1.png` (1200 × 630), com fonte editável em `docs/assets/compartilhamento.html`. As páginas comerciais têm Open Graph e Twitter Cards com título, descrição e URL próprios. A exibição de prévias depende do serviço que recebe o link e do cache dele.
+O cartão de compartilhamento usa a arte `public/assets/for-infra-compartilhamento-v2.png` (1200 × 630), com fonte editável em `docs/assets/compartilhamento.html`. As páginas comerciais têm Open Graph e Twitter Cards com título, descrição e URL próprios. A exibição de prévias depende do serviço que recebe o link e do cache dele.
 
 ## Formulário e lançamento
 
