@@ -1,0 +1,219 @@
+{
+  "base": "https://thalesmsousa10.github.io/for-infra-engenharia",
+  "checks": [
+    {
+      "width": 1440,
+      "route": "/",
+      "images": 12,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/sobre/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/obras/",
+      "images": 4,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans",
+        "Instrument Sans",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/solucoes/",
+      "images": 1,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans",
+        "Instrument Sans",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/contato/",
+      "images": 0,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans",
+        "Instrument Sans",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/solucoes/consultoria/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/solucoes/projetos-de-fundacoes/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/solucoes/sondagem-spt/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/solucoes/estacas-escavadas/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/solucoes/estacas-strauss/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "images": 12,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/sobre/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/obras/",
+      "images": 4,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans",
+        "Instrument Sans",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/solucoes/",
+      "images": 1,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans",
+        "Instrument Sans",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/contato/",
+      "images": 0,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans",
+        "Instrument Sans",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/solucoes/consultoria/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/solucoes/projetos-de-fundacoes/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/solucoes/sondagem-spt/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/solucoes/estacas-escavadas/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/solucoes/estacas-strauss/",
+      "images": 2,
+      "fonts": [
+        "Cormorant Garamond",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ]
+    }
+  ],
+  "failures": [],
+  "errors": []
+}

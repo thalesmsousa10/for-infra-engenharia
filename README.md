@@ -54,6 +54,8 @@ O modelo de caso está salvo em `modelos/obra/ModeloDeCaso.tsx`, fora das rotas 
 
 Confira o [guia de revisão](docs/REVISAO.md) e a [auditoria técnica](docs/AUDITORIA.md). Sugestões podem ser registradas nas Issues do repositório, preferencialmente com página, largura da tela, captura e proposta de ajuste.
 
+A entrega de 30/09 está documentada em [publicação e compartilhamento](docs/LANCAMENTO-GITHUB.md), com medições feitas no endereço público.
+
 ![Abertura do site em desktop](docs/review/inicio-desktop.png)
 
 | Início no celular | Página Sobre |
