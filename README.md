@@ -64,10 +64,13 @@ Confira o [guia de revisão](docs/REVISAO.md) e a [auditoria técnica](docs/AUDI
 - `components/`: cabeçalho, rodapé, apresentação editorial, serviços e formulário.
 - `lib/content.ts`: serviços, aplicações e WhatsApp comercial.
 - `lib/service-pages.ts`: conteúdo das cinco páginas de serviços.
+- `lib/editorial-images.ts`: imagens exclusivas das páginas internas e textos alternativos.
 - `lib/images.ts`: variantes responsivas do acervo.
 - `public/`: imagens, fontes locais e bibliotecas de animação.
 
 O estilo aprovado combina petróleo e laranja com Cormorant Garamond e Instrument Sans. GSAP/ScrollTrigger são locais e o movimento respeita `prefers-reduced-motion`. As fotografias são conceituais, geradas por IA, e não representam obras ou integrantes reais da empresa. As fontes incluem suas licenças em `public/fonts/`.
+
+As imagens da home foram preservadas. As páginas internas usam 19 imagens distintas, com versões responsivas em WebP. Confira o [mapeamento do acervo](docs/assets/PLANO-DE-IMAGENS.md).
 
 ## Formulário e lançamento
 

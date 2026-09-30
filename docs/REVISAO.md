@@ -8,6 +8,7 @@ Objetivo: colher opiniões de desenvolvimento e design sobre a versão atual do 
 - Conferir celular e desktop, especialmente abertura, menu, páginas de serviços e formulário.
 - Observar se cada serviço é compreensível e se o próximo passo para conversar sobre uma obra está claro.
 - As imagens são conceituais. Logo definitivo, fotos próprias e casos documentados serão incorporados quando disponíveis.
+- As páginas internas agora possuem 19 imagens distintas, específicas de cada contexto. Conferir a adequação e os recortes; o [mapeamento do acervo](assets/PLANO-DE-IMAGENS.md) relaciona cada arquivo à sua seção.
 
 ## Desenvolvimento
 
